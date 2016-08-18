@@ -4,9 +4,9 @@ namespace Hyn\ManagementInterface\Http\Controllers;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Laraflock\Dashboard\Controllers\BaseDashboardController;
-use Hyn\MultiTenant\Contracts\TenantRepositoryContract;
-use Hyn\MultiTenant\Validators\TenantValidator;
-use Hyn\MultiTenant\Models\Tenant;
+use Hyn\Tenancy\Contracts\TenantRepositoryContract;
+use Hyn\Tenancy\Validators\TenantValidator;
+use Hyn\Tenancy\Models\Tenant;
 
 class TenantController extends BaseDashboardController
 {

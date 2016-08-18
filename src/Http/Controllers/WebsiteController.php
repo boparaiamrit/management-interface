@@ -4,9 +4,9 @@ namespace Hyn\ManagementInterface\Http\Controllers;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Laraflock\Dashboard\Controllers\BaseDashboardController;
-use Hyn\MultiTenant\Contracts\WebsiteRepositoryContract;
-use Hyn\MultiTenant\Models\Website;
-use Hyn\MultiTenant\Validators\WebsiteValidator;
+use Hyn\Tenancy\Contracts\WebsiteRepositoryContract;
+use Hyn\Tenancy\Models\Website;
+use Hyn\Tenancy\Validators\WebsiteValidator;
 
 class WebsiteController extends BaseDashboardController
 {
